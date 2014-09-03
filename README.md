@@ -15,4 +15,4 @@ Usage when not via the commit hook:
 	    supported parameters
 	     -c : to only check files with unstaged changes
 	     -s : to only check staged files
-       else check all files (in parallel for speed!)
+       else check all ruby and rake files in this dir and subdirs (in parallel for speed!)
