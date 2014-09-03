@@ -42,7 +42,7 @@ function process_staged_files {
 	ext=$(echo $filename | sed 's/^.*\.//')
 
 	# only check ruby files
-	if [ $ext != "rb" ]; then
+	if [ $ext != "rb" ] && [ $ext != "rake" ]; then
 	    continue
 	fi
 
